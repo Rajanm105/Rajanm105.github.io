@@ -18,7 +18,7 @@ const Navbar = () => {
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <div>
-                <h1 className='font-thin text-2xl italix font-serif'>TB</h1>
+                <h1 className='font-thin text-2xl italix font-serif'>RM</h1>
             </div>
             {/* menu */}
             <ul className='hidden md:flex gap-x-8'>
@@ -67,7 +67,7 @@ const Navbar = () => {
                 </Link>
             </li>
             <li className='py-6 text-4xl'>
-                <Link onClick={handleClick} to='skulls' smooth={true} duration={500}>
+                <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
                     Skills
                 </Link>
             </li>
@@ -86,22 +86,22 @@ const Navbar = () => {
             <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
                 <ul>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between item-center w-full text-gray-300'  href='/'>
+                        <a className='flex justify-between item-center w-full text-gray-300'  href='https://www.linkedin.com/in/rajanmishra96034'>
                             Linkedin <FaLinkedin size={30}/>
                         </a>    
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between item-center w-full text-gray-300'  href='/'>
+                        <a className='flex justify-between item-center w-full text-gray-300'  href='https://github.com/Rajanm105'>
                             Github <FaGithub size={30}/>
                         </a>    
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between item-center w-full text-gray-300'  href='/'>
+                        <a className='flex justify-between item-center w-full text-gray-300'  href='rajanmishra96034@gmail.com'>
                             Email  <HiOutlineMail size={30}/>
                         </a>    
                     </li>
                     <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-                        <a className='flex justify-between item-center w-full text-gray-300'  href='/'>
+                        <a className='flex justify-between item-center w-full text-gray-300'  href='https://docs.google.com/document/d/e/2PACX-1vS7GoWUN0rstsiRV5xG2AXzOleT3ix1UbMHHdeFkW3yE4T1KWVZfSFO1csMbMFJ_6NDhAcjk2ZD6IBF/pub'>
                             Resume <BsPersonLinesFill size={30}/>
                         </a>    
                     </li>

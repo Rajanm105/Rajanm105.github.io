@@ -19,7 +19,7 @@ const About  = () => {
                     <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                         <div className='sm:text-right text-4xl font-bold'>
                             <p>
-                                Hi. I'm Taminoturoko Briggs, nice to meet you. Please take a
+                                Hi. I'm Rajan Mishra, nice to meet you. Please take a
                                 look around.
                             </p>
                         </div>
@@ -27,9 +27,9 @@ const About  = () => {
                             <p>
                                 {" "}
                                 A software developer with experience in building Responsive and 
-                                Scalable Web apps. I am well-knowledged in UI/UX principles and
-                                practices. In addition to software development, I am also a
-                                technical writer--simplifying topics/concepts on the web.
+                                Scalable Web and Android apps. I am well-knowledged in UI/UX principles and
+                                practices. In addition to software development, I also have good knowledge
+                                on writing backend logical scripts.
                             </p>
                         </div>
                     </div>
